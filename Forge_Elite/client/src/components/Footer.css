@@ -1,0 +1,109 @@
+/* Footer Styling */
+.footer {
+    background-color: #2b2b86; /* Blue background color */
+    color: #ffffff;  /* White text color */
+    padding: 40px 20px;
+    font-size: 1rem;
+  }
+  
+  /* Container for the top part of the footer */
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  /* Space between sections */
+    flex-wrap: nowrap;  /* Prevent wrapping of sections */
+    margin-bottom: 40px;
+  }
+  
+  /* Each section inside the footer */
+  .footer-section {
+    flex: 1;  /* Each section takes equal space */
+    padding: 10px;
+  }
+  
+  /* Ensure headings are properly styled */
+  .footer-section h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* List styling */
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #ffffff;  /* White color for links */
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f8f9fa;  /* Light color on hover */
+  }
+  
+  /* Styling for Social Media Icons */
+.social-media {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 30px; /* Distribute icons evenly */
+    width: 100%;  /* Reduced gap between icons */
+  }
+  
+  .social-media li {
+    margin: 0;  /* Remove any default margin */
+  }
+  
+  .social-media li a {
+    color: #ffffff;  /* White color for icons */
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-media li a:hover {
+    color: #f8f9fa;  /* Light hover effect */
+  }
+  
+  
+  /* Bottom section for terms and copyright */
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #f8f9fa;
+  }
+  
+  .footer-terms {
+    margin-top: 10px;
+  }
+  
+  .footer-terms a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-terms a:hover {
+    color: #ffffff;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .footer-top {
+      flex-direction: column;  /* Stack sections vertically on smaller screens */
+      gap: 20px;
+    }
+  
+    .footer-section {
+      width: 100%;  /* Ensure sections take full width on small screens */
+    }
+  }
+  

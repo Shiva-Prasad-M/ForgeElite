@@ -1,0 +1,69 @@
+.landing {
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #142f32;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .landing h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 20px;
+  }
+  
+  .landing h1 span {
+    color: #0ea5e9;
+  }
+  
+  .landing p {
+    font-size: 18px;
+    color: #64748b;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    margin-bottom: 40px;
+  }
+  
+  .get-started,
+  .try-demo {
+    padding: 12px 24px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .get-started {
+    background-color: #0f172a;
+    color: #fff;
+  }
+  
+  .try-demo {
+    background-color: #e2e8f0;
+    color: #0f172a;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .stat-box {
+    background-color: #f1f5f9;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f172a;
+  }
+  
+  .stat-box span {
+    display: block;
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 5px;
+  }

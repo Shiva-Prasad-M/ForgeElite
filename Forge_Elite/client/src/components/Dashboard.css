@@ -1,0 +1,180 @@
+/* ==== Layout & Background ==== */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #85a8e1, #95d1ed);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+  }
+  
+  /* ==== Container ==== */
+  .dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* ==== Title ==== */
+  .dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* ==== Webcam Section ==== */
+  .webcam-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* ==== Webcam View ==== */
+  .webcam-view {
+    width: 320px;
+    height: 240px;
+    border-radius: 12px;
+    border: 3px solid #007bff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ==== Selfie Preview ==== */
+  .selfie-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .selfie-img {
+    width: 320px;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #28a745;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ==== Buttons ==== */
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .primary-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .primary-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .danger-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .danger-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .success-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .success-btn:hover {
+    background-color: #218838;
+  }
+  
+  .neutral-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .neutral-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .take-selfie-btn {
+    margin-top: 10px;
+  }
+  
+  /* ==== Success Section ==== */
+  .success-section {
+    margin-top: 30px;
+  }
+  
+  .success-text {
+    font-size: 1.2rem;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  /* ==== Modal ==== */
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .modal h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .modal ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .modal li {
+    margin-bottom: 10px;
+  }
+  
+  /* ==== Loader & Error ==== */
+  .loading-text,
+  .error-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .loading-text {
+    color: #007bff;
+  }
+  
+  .error-text {
+    color: #dc3545;
+  }
+  

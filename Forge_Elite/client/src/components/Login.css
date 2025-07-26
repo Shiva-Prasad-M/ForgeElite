@@ -1,0 +1,132 @@
+
+
+.login-wrapper {
+    height: 100vh;
+    background: url("../images/login-page.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+  }
+  
+  .login-card {
+    background: #f1f1ea;
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .login-card h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .login-form input {
+    width: 90%; 
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    border-color: #5f9eff;
+    box-shadow: 0 0 5px rgba(95, 158, 255, 0.5);
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: #5f9eff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #3d85e2;
+  }
+  
+  .forgot-password {
+    text-align: left;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    margin-left: 6px;
+    color: #6012ce;
+    cursor: pointer;
+  }
+  
+  .forgot-password span:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .register-prompt {
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .register-prompt span {
+    color: #5f9eff;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .register-prompt span:hover {
+    text-decoration: underline;
+  }
+
+  .oauth-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .oauth-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .google-icon {
+    font-size: 24px;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

@@ -1,0 +1,22 @@
+.oauth-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .oauth-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .google-icon {
+    font-size: 24px;
+  }
+  

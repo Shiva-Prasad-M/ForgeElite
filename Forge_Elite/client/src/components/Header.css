@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #f5f8f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f172a;
+    text-decoration: none;
+  }
+  
+  .logo a {
+    text-decoration: none; /* Removes the underline */
+/* Uppercase text for logo */
+    transition: color 0.3s ease;
+  }
+  
+  .logo a:hover {
+    color: #0056b3;  /* Darker blue on hover */
+  }
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #334155;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #0ea5e9;
+  }
+  
+  .sign-up-btn {
+    background-color: #0f172a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .profile-wrapper {
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    border: 2px solid #0f172a;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1000;
+    min-width: 150px;
+    text-align: left;
+  }
+  
+  .dropdown-username {
+    margin: 0 0 10px;
+    color: #0f172a;
+    font-weight: 500;
+  }
+  
+  .logout-button {
+    background-color: #0f172a;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .profile-icon {
+    font-size: 28px;
+    color: #0f172a;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    border: 2px solid #0f172a;
+    background-color: white;
+  }
+  

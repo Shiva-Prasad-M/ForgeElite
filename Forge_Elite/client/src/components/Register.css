@@ -1,0 +1,115 @@
+/* Register.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .register-container {
+    background: url('https://img.freepik.com/free-photo/fitness-concept-with-dumbbells-frame_23-2148531434.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-form {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    max-width: 350px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-form h2 {
+    color: #95c795;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .register-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .input-field {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+    font-size: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input-field::placeholder {
+    color: #555;
+  }
+  
+  .input-field:focus {
+    border: 1px solid #00c6ff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 198, 255, 0.5);
+  }
+  
+  
+  .submit-btn {
+    background-color: #00c6ff;
+    border: none;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0086b3;
+  }
+  
+  .error-message {
+    background-color: rgba(255, 0, 0, 0.7);
+    color: white;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .switch-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #453f3f;
+  }
+  
+  .login-link {
+    color: #86e865;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  .back-to-login {
+    margin-top: 20px;
+  }
+  
+  .back-to-login span {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
